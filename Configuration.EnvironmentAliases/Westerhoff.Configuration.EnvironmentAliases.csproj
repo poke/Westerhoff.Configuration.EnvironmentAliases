@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Westerhoff.Configuration.EnvironmentAliases</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+
+    <Authors>Patrick Westerhoff</Authors>
+    <Copyright>(c) 2019 Patrick Westerhoff</Copyright>
+    <Description>Configuration provider that reads configuration values from environment variables according to a mapping to configuration paths.</Description>
+    <PackageTags>Configuration;ASP.NET Core</PackageTags>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/poke/Westerhoff.Configuration.EnvironmentAliases</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/poke/Westerhoff.Configuration.EnvironmentAliases</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-18618-05" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
